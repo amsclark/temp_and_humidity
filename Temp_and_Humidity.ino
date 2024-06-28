@@ -16,7 +16,7 @@ void setup()
   // Print a message to the LCD.
   lcd.backlight();
   lcd.setCursor(0,0);
-  lcd.print("Temperature: ");
+  lcd.print("Temp: ");
   lcd.setCursor(0,1);
   lcd.print("Humidity: ");
 }
